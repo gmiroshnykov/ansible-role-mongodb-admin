@@ -13,22 +13,3 @@
     src=mongorc.js.j2
     dest=~/.mongorc.js
     mode=0644
-
-# - name: create MongoDB mms user
-#   mongodb_user:
-#     login_user=admin
-#     login_password=rebb1xr0ck$
-#     user=mms
-#     password=rebb1xr0ck$
-#     database=admin
-#     roles='clusterAdmin,readAnyDatabase'
-#   changed_when: false
-
-# - name: create MongoDB prodeye user
-#   mongodb_user:
-#     login_user=admin
-#     login_password=rebb1xr0ck$
-#     user=prodeye
-#     password=rebb1xr0ck$
-#     database=prodeye
-#   changed_when: false
